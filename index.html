@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Referências Bibliográficas</title>
   <style>
     body {
@@ -56,6 +57,31 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    /* Media query para dispositivos móveis */
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      ol li {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      ol li {
+        font-size: 0.8rem;
+      }
     }
   </style>
 </head>
